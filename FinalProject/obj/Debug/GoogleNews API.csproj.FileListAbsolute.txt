@@ -1,0 +1,10 @@
+C:\Users\PC4\Desktop\GoogleNews API\GoogleNews API\bin\GoogleNews API.dll
+C:\Users\PC4\Desktop\GoogleNews API\GoogleNews API\bin\GoogleNews API.pdb
+C:\Users\PC4\Desktop\GoogleNews API\GoogleNews API\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PC4\Desktop\GoogleNews API\GoogleNews API\obj\Debug\GoogleNews API.dll
+C:\Users\PC4\Desktop\GoogleNews API\GoogleNews API\obj\Debug\GoogleNews API.pdb
+F:\Sem5\MirKino\GoogleNews_API\GoogleNews API\GoogleNews API\bin\GoogleNews API.dll
+F:\Sem5\MirKino\GoogleNews_API\GoogleNews API\GoogleNews API\bin\GoogleNews API.pdb
+F:\Sem5\MirKino\GoogleNews_API\GoogleNews API\GoogleNews API\obj\Debug\GoogleNews API.csprojResolveAssemblyReference.cache
+F:\Sem5\MirKino\GoogleNews_API\GoogleNews API\GoogleNews API\obj\Debug\GoogleNews API.dll
+F:\Sem5\MirKino\GoogleNews_API\GoogleNews API\GoogleNews API\obj\Debug\GoogleNews API.pdb

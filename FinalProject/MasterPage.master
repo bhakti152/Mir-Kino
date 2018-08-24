@@ -1,0 +1,169 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <style style="color: #FFFFFF; font-weight: bolder">
+body {
+    background-image:url( images/images.jpg) ;
+   font-weight:bolder;
+   color:darkorange;
+}
+#img1 {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding :1px;
+}
+    
+
+        .cell {
+            height: 66px;
+        }
+    
+
+    </style>
+     <link href="css/metro.css" rel="stylesheet"/>
+    <link href="css/metro-icons.css" rel="stylesheet"/>
+    <link href="css/metro-responsive.css" rel="stylesheet"/>
+    <link href="css/metro-schemes.css" rel="stylesheet"/>
+    <link href="css/docs.css" rel="stylesheet"/>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/metro.js"></script>
+    <script src="js/docs.js"></script>
+    <script src="js/prettify/run_prettify.js"></script>
+    <script src="js/ga.js"></script>
+     <title></title>
+         
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+         <div class="tile-container "  >
+                 <div class="tile-large" data-role="tile" data-effect="slideLeftRight" id="img2">
+                    <div class="tile-content">
+                                             <div class="live-slide"><img src="images/6.jpg" data-role="fitImage" data-format="fill"/></div>
+                                            <div class="live-slide"><img src="images/2.jpg"  data-role="fitImage" data-format="fill"/></div>
+                                            <div class="live-slide"><img src="images/3.jpg"  data-role="fitImage" data-format="fill"/></div>
+                                            <div class="live-slide"><img src="images/7.jpg"  data-role="fitImage" data-format="fill"/></div>
+                                            <div class="live-slide"><img src="images/5.jpg"  data-role="fitImage" data-format="fill"/></div>
+                 </div>
+                 </div>
+                       
+                                        
+                         <div class="tile-large" data-role="tile" data-effect="slideDown" id="img3">
+                                    <div class="tile-content">
+                                                             <div class="live-slide"><img src="images/8.jpg" data-role="fitImage" data-format="fill"/></div>
+                                                            <div class="live-slide"><img src="images/9.jpg" data-role="fitImage" data-format="fill"/></div>
+                                                            <div class="live-slide"><img src="images/10.jpg" data-role="fitImage" data-format="fill"/></div>
+                                                            <div class="live-slide"><img src="images/11.jpg" data-role="fitImage" data-format="fill"/></div>
+                                                            <div class="live-slide"><img src="images/12.jpg" data-role="fitImage" data-format="fill"/></div>
+                                 </div>
+                             </div>
+
+                          <div class="tile-large" data-role="tile" data-effect="slideLeftRight"id="img4" >
+                                <div class="tile-content">
+                                                         <div class="live-slide"><img src="images/Ae-Dil-Hai-Mushkil-8421783.jpg" data-role="fitImage" data-format="fill"/></div>
+                                                        <div class="live-slide"><img src="images/beautyandthebeast.jpg" data-role="fitImage" data-format="fill"/></div>
+                                                        <div class="live-slide"><img src="images/Dangal-poster-large-LISTICLE.jpg" data-role="fitImage" data-format="fill"/></div>
+                                                        <div class="live-slide"><img src="images/dear_zindagi.jpg" data-role="fitImage" data-format="fill"/></div>
+                                                        <div class="live-slide"><img src="images/a.jpg" data-role="fitImage" data-format="fill"/></div>
+                             </div>
+                              </div>
+
+           <div class="tile-large" data-role="tile" data-effect="slideDown" id="img5">
+                                <div class="tile-content">
+                                                         <div class="live-slide"><img src="images/b.jpg" data-role="fitImage" data-format="fill"/></div>
+                                                        <div class="live-slide"><img src="images/xfWac8MTYDxujaxgPVcRD9yZaul.jpg" data-role="fitImage" data-format="fill"/></div>
+                                                        <div class="live-slide"><img src="images/d.jpg" data-role="fitImage" data-format="fill"/></div>
+                                                        <div class="live-slide"><img src="images/shivaay-ajay-devgan-whatsapp-facebook-photos-and-images.jpg" data-role="fitImage" data-format="fill"/></div>
+                                                        <div class="live-slide"><img src="images/f.jpg" data-role="fitImage" data-format="fill"/></div>
+                             </div>
+                              </div>
+       
+        
+
+             
+        </div>
+        <
+        <br/>
+        <br/>
+             
+
+                <div class="app-bar bg-amber" data-role="appbar">
+
+                <ul class="app-bar-menu">
+                        <li><a href="ActorSearch.aspx">Actors</a></li>
+                        <li>
+                            <a  href="MovieSearch.aspx" >Movie</a>
+                          
+                        </li>
+                        <li><a href="News.aspx">News&Reviews</a></li>
+                     <li><a href="Dashboard.aspx">Dashboard</a></li>
+                        <li><a href="LoginForm.aspx">Login</a></li>
+                    </ul>
+                </div>
+           
+        <div class="cell">
+                        
+            <div class="presenter" data-role="presenter" data-height="220" data-easing="swing">
+                <div class="scene">
+                    <div class="act bg-olive fg-white">
+                        &nbsp;<h1 class="actor" data-position="10,250">Welcome to MIR KINO</h1>
+                        <p class="actor" data-position="70,250">World Of Entertainment</p>
+                        <p class="actor" data-position="130,250">Developed By  Ayushi & Bhakti</p>
+                        <img src="images/star.png" class="actor" data-position="10,10" style="height: 342px; right: 1087px; top: 8px; width: 258px;"/></div>
+                    <div class="act bg-lightTeal fg-black">
+                        <img src="images/download.jpg" class="actor" data-position="10,10" style="height: 200px">
+                        <h1 class="actor" data-position="10,270" >Welcome to MIR KINO</h1>
+                        <p class="actor" data-position="60,270" >World Of Entertainment</p>
+                        <p class="actor" data-position="120,270" >Developed By  Ayushi & Bhakti</p>
+                        
+                    </div>
+                    <div class="act bg-darkCyan fg-white">
+                        <img src="images/download.jpg" class="actor" data-position="10,10" style="height: 200px">
+                        <h1 class="actor" data-position="10,300" >Welcome to MIR KINO</h1>
+                        <p class="actor" data-position="60,300" >World Of Entertainment</p>
+                        <a class="actor button success" data-position="130,300" >Developed By  Ayushi & Bhakti</a>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+        <br />
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+         <br />
+         &nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <br />
+         <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="TextBox1" runat="server" Width="203px"></asp:TextBox><asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="False" Width="144px">
+            <asp:ListItem Value="0">Movie</asp:ListItem>
+            <asp:ListItem Value="1">Actor</asp:ListItem>
+            
+        </asp:DropDownList><asp:Button ID="Button1" runat="server" Text="Search" OnClick="Button1_Click" />
+       <br />
+         
+     
+         
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" ViewStateMode="Enabled">
+  
+        </asp:ContentPlaceHolder>
+      
+        
+    </form>
+</body>
+</html>
